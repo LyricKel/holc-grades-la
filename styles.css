@@ -1,0 +1,33 @@
+body {
+  margin: 100;
+  padding: 0;
+  background: #9b9b9b;
+  font-family: helvetica;
+  color: #191919;
+}
+h2 {
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #f0f0f0;
+}
+h3 {
+  color: #f0f0f0;
+}
+.map-wrapper {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  margin-top: 10px;
+}
+#map {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+.layer-picker {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 20000;
+}
